@@ -1,0 +1,14 @@
+This Project represents the implementation of basic restapi in spring
+
+@Controller ---Used to Make our java class as mvc class
+@ResponseBody ---Uses HTTP Message Converters to convert them return body to HTTP response body
+
+@RestController is the Shorthand for @Controller+@ResponseBody
+
+@Getmapping annotation is used to make the method as RESTapi
+
+@Getmapping("/URL") ---to get the output in localhost
+
+//GET HTTP METHOD
+
+//http://localhost:8080/hello-world
